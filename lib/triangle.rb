@@ -13,7 +13,9 @@ class Triangle
         
         raise TriangleError
         
-      elsif ()
+      elsif (@s1 == @s2 && @s2 == @s3 && @s3 == @s1)
+      
+        
       
     end
     
