@@ -9,7 +9,7 @@ class Triangle
     
     def kind
       
-      if 
+      if (@s1 <= 0 )
       
     end
     
