@@ -13,11 +13,18 @@ class Triangle
         
         raise TriangleError
         
-      elsif (@s1 == @s2 && @s2 == @s3 && @s3 == @s1)
+      elsif @s1 == @s2 && @s2 == @s3 && @s3 == @s1
       
         return :equilateral
         
-      elsif
+      elsif @s1 == @s2 || @s2 == @s3 || @s3 == @s1
+      
+        return :isosceles
+        
+      else
+        
+        return :scalene
+      end
       
     end
     
