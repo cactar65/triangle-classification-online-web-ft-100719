@@ -1,5 +1,5 @@
 class Triangle
   
-  attr_reader :, :b, :c
+  attr_reader :equilateral, :b, :c
   
 end
